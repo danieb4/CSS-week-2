@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donkey Awareness - More</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<!--NAVBAR: to identify the webpage, modified header to nav for semantic use as well as adding the anchors to a list to allow proper formatting in CSS, as well as increasing SEO and accessibility-->
+<body>
+    <nav class="navbar">
+        <h1>Donkey Awareness More</h1>    
+        <ul>
+<!--id used on home anchor in order to get them into the same position across every page-->
+            <li id="more"><a href="home.html">Home</a></li>
+            <li><a href="info.html">Info</a></li>
+            <li><a href="more.html">More</a></li>
+        </ul>   
+    </nav>
+<!--SECTION: added images into a section for CSS styling, had to use in server absolute path because image URL was broken and I didn't feel like worrying about it-->
+<section class="img">
+    <img src="https://www.westelkequine.com/wp-content/uploads/2020/02/lucy3.jpg" width="258" alt="x">
+    <img src="donkey1.jpg" width="338" alt="Two cute donkeys in a pasture.">
+</section>
+    <h4 class="h4">Now is your chance to get weekly emails about the latest and greatest facts about donkeys and how they are doing thorughout the world!</h4>
+<!--FORM: using form class for margin while each input has its own class tag in order to get them onto their own lines and give them all borders, while the button class is used to customize the submit input-->
+    <form class="form">
+        <input class="input" type="text" name="firstName" placeholder="First Name">
+        <input class="input" type="text" name="lastName" placeholder="Last Name">
+        <input class="input" type="text" name="emailAddress" placeholder="Email Address">
+        <input class="input button" type="submit" value="Submit">
+    </form>
+</body>
+</html>

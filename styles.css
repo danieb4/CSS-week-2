@@ -1,0 +1,146 @@
+/* max-width utilized to keep everything in line with each other */
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    margin: 0;
+    background-color: #aec6db;
+    max-width: 650px;
+}
+/* navbar has the same styling across all three pages */
+.navbar {
+    display: flex;
+    padding: 0;
+    padding-left: 1rem;
+    background: rgb(111,130,146);
+    background: linear-gradient(90deg, rgba(111,130,146,1) 18%, rgba(174,198,219,1) 93%);
+}
+
+.navbar h1 {
+    font-size: xx-large;
+}
+
+.navbar ul {
+    font-size: large;
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin-top: 2.3rem;
+    margin-bottom: 2rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    gap: 2rem;
+}
+
+.navbar a {
+    color: #303438;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: #347fc5;
+    text-decoration: underline;
+}
+/* info id used to get the anchor links in the same place across all pages from the Info page */
+#info {
+    margin-left: 28px;
+}
+/* more id used to get the anchor links in the same place across all pages from the More page */
+#more {
+    margin-left: 11px;
+}
+/* image class used to space the images equally across all pages */
+.img {
+    padding: .8rem;
+    padding-bottom: 0;
+    margin: 0;
+}
+
+/* Home page styling */
+.main {
+    margin: .8rem;
+    font-size: large;
+}
+/* h3 used on Home and Info */
+.h3 {
+    font-size: x-large;
+    margin: 0;
+    border-bottom: 1px solid black;
+}
+
+.p {
+    padding: .2rem;
+    padding-left: 0;
+    padding-bottom: 0;
+}
+
+.main ul {
+    padding-left: 2.3rem;
+    border-bottom: 1px solid black;
+}
+/* to create space between each list item in the ul */
+.main li {
+    padding-bottom: .1rem;
+}
+/* li class used to accentuate the final list item and to create space between the final list item and the bottom border of the ul */
+.li {
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+
+/* Info page styling */
+.p1 {
+    padding-bottom: 1rem;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.th {
+    text-align: left;
+    border-bottom: 1px solid black;
+}
+
+.tr {
+    border-left: 1px solid black;
+}
+
+.td {
+    border-left: 1px solid black;
+    padding-top: .3rem;
+}
+
+.bottom {
+    border-bottom: 1px solid black;
+}
+
+.right {
+    border-right: 1px solid black;
+}
+
+/* More page styling */
+.h4 {
+    font-size: large;
+    margin: .8rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid black;
+}
+
+.form {
+    margin: 1rem;
+}
+
+.input {
+    display: block;
+    padding: .3rem;
+    margin: .5rem;
+    margin-left: 0;
+    border: 1.5px solid black;
+}
+
+.button {
+    background: rgb(111,130,146);
+    background: linear-gradient(90deg, rgba(174,198,219,1) 18%, rgba(111,130,146,1) 93%);
+    margin-top: 1rem;
+}
