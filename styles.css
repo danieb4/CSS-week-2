@@ -7,6 +7,7 @@ body {
     max-width: 650px;
 }
 /* navbar has the same styling across all three pages */
+/* flex display allows all of the elements to be on the same line versus their own lines */
 .navbar {
     display: flex;
     padding: 0;
@@ -18,7 +19,7 @@ body {
 .navbar h1 {
     font-size: xx-large;
 }
-
+/* list style none takes away the bullet points, flex display here allows each piece of the list to be in the same line versus their own, the specific margins put it exactly where i wanted it to be on the page, and the gap spaces each piece out nicely */
 .navbar ul {
     font-size: large;
     list-style-type: none;
@@ -30,21 +31,21 @@ body {
     margin-right: 2.5rem;
     gap: 2rem;
 }
-
+/* none text decor to remove underlines on hyperlinks */
 .navbar a {
     color: #303438;
     text-decoration: none;
 }
-
+/* reimplimented underlines to further identify which link is being hovered to click */
 .navbar a:hover {
     color: #347fc5;
     text-decoration: underline;
 }
-/* info id used to get the anchor links in the same place across all pages from the Info page */
+/* info id used to overwrite previous class styling in order to get the anchor links in the same place across all pages from the Info page */
 #info {
     margin-left: 28px;
 }
-/* more id used to get the anchor links in the same place across all pages from the More page */
+/* more id used to overwrite previous class styling in order to get the anchor links in the same place across all pages from the More page */
 #more {
     margin-left: 11px;
 }
@@ -100,10 +101,6 @@ body {
 .th {
     text-align: left;
     border-bottom: 1px solid black;
-}
-
-.tr {
-    border-left: 1px solid black;
 }
 
 .td {
